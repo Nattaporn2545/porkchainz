@@ -1,0 +1,84 @@
+// function createData(pigID, weight, startDate, endDate, health) {
+//   return { pigID, weight, startDate, endDate, health };
+// }
+
+// const rows = [
+//   createData(
+//     1,
+//     'add',
+//     'farm',
+//     '16 Mar 2019',
+//     '17 Mar 2019',
+//   ),
+//   createData(
+//     2,
+//     'add',
+//     'farm',
+//     '16 Mar 2019',
+//     '17 Mar 2019',
+//   ),
+//   createData(
+//     3,
+//     'add',
+//     'farm',
+//     '16 Mar 2019',
+//     '17 Mar 2019',
+//   ),
+//   createData(
+//     4,
+//     'add',
+//     'farm',
+//     '16 Mar 2019',
+//     '17 Mar 2019',
+//   ),
+// ];
+
+{/* <table className="content-table">
+          <thead>
+            <tr >
+              <th>pigID</th>
+              <th>weight</th>
+              <th>startDate</th>
+              <th>endDate</th>
+              <th>health</th>
+            </tr>
+          </thead>
+          <tbody>
+            {rows.map((row) => (
+              <tr key={row.pigID}>
+                <td>{row.pigID}</td>
+                <td>{row.weight}</td>
+                <td>{row.startDate}</td>
+                <td>{row.endDate}</td>
+                <td>{row.health}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table> */}
+
+
+css
+
+.content-table {
+   border-collapse: collapse;
+   min-width: 800px;
+   background-color: white;
+   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+   border-radius: 8px;
+   justify-content: center;
+ 
+}
+.content-table thead {
+    text-align: left;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); 
+}
+.content-table th,
+.content-table td{
+    padding: 18px 20px;
+}
+.content-table tr{
+    border-bottom: 1px solid gainsboro;
+}
+.content-table tr:hover td {
+    background-color: #f2f5f8;
+  }

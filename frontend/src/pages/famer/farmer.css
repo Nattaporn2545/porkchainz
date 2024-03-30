@@ -1,0 +1,43 @@
+.container{
+    display: grid;
+    row-gap: 5%; 
+   
+}
+body{
+    background-color: #F3F5F5;
+    font-family: "Poppins", sans-serif;
+}
+.information{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.button-addPig{
+    display: flex;
+    justify-content: flex-end;
+    margin-right:18rem; 
+}
+.add{
+    padding: 15px 20px;
+    background: linear-gradient(to right, #1058C5, #3B82F6);
+    border-radius: 12px;
+    border: none;
+    margin-bottom: 20px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+   font-weight: 500;
+    
+}
+.add:hover{
+    background:linear-gradient(to right, #0f54ba, #316bc7);
+    cursor: pointer;
+}
+
+.container-table{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
